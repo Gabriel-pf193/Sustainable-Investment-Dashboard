@@ -5,8 +5,9 @@ Over the past decades, environmental challenges, social inequality, and ethical 
 
 The planned approach for this matter consists of collecting publicly available data on the ESG scores of a sample of companies via datasets such as Kaggle, as well as collecting financial data (historical stock prices, market cap, P/E ratio, dividend yield, etc.) of the same sample of companies using Yahoo Finance. Once the dataset is prepared (that is, once the data is cleaned and matched for each company), I will use Python and its analytical tools to calculate key financial indicators such as average returns and volatility, as well as computing the correlation between financial performance and the ESG score.
 
-Results of this analysis will be shown through a dashboard that compares financial performance of "green" companies with that of regular companies. If time permits, I would like to make this dashboard interactive, so that one can explore the data by selecting specific companies, time periods, or performance indicators.
-
 Expected challenges include matching ESG data with financial data, as company names and tickers may differ across sources. I will deal with this issue by focusing on a smaller sample of well-known companies and manually verify that the data matches. Missing or incomplete data may also be a difficulty, which I will handle by filtering the data so that there are no more missing entries. Finally, there can also be differences in time periods between ESG and Yahoo Finance data. Once again, I will treat this issue by filtering the data to keep only the values that match in the time frame.
 
+Results of this analysis will be shown through a dashboard that compares financial performance of "green" companies with that of regular companies. If time permits, I would like to make this dashboard interactive, so that one can explore the data by selecting specific companies, time periods, or performance indicators.
+
 To conclude, the objective of this project is to provide a perspective on how sustainability relates to financial performance, using data from ESG scores and Yahoo Finance. It will test whether responsible businesses practices can also deliver competitive returns. It will also be a great opportunity for me to learn more about python and improve my analytical skills.
+
