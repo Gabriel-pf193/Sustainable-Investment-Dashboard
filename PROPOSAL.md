@@ -1,7 +1,19 @@
-# The Financial Impact of Sustainability: Do Green Companies Perform Better ?
+# The Economic impact of Sustainability: Do More Sustainable Countries Perform Better?
 **Category:** Data Analysis & Visualization
 
-Over the past decades, environmental challenges, social inequality, and ethical governance have reshaped how our society defines progress. As a result, sustainability has become a global concern, not only in public policy, but also in the world of finance. Investors these days consider environmental, social, and governance (ESG) indicators a lot more, when evaluating the stability and ethical impact of a company. With this growing awareness, naturally we ask ourselves whether firms that commit to sustainability actually perform better financially than more traditional ones ? This project aims to explore this relationship by analysing how ESG performance relates to financial performance. 
+Over the past decades, environmental challenges, social inequality, and ethical governance have reshaped how our society defines progress. As a result, sustainability has become a global concern, influencing both policy decisions and patterns of economic development. Governments and international institutions these days consider environmental, social, and governance (ESG) indicators a lot more when making policies, to promote long-term growth and stability. With this growing awareness, naturally we ask ourselves whether countries that invest heavily in sustainability actually achieve stronger economic performance than those whose investment in sustainability is more limited. This project aims to explore this relationship by analysing how sustainability indicators relate to economic performance across countries.
+
+
+
+
+
+
+
+
+
+
+
+
 
 The planned approach for this matter consists of collecting publicly available data on the ESG scores of a sample of companies via datasets such as Kaggle, as well as collecting financial data (historical stock prices, market cap, P/E ratio, dividend yield, etc.) of the same sample of companies using Yahoo Finance. Once the dataset is prepared (that is, once the data is cleaned and matched for each company), I will use Python and its analytical tools to calculate key financial indicators such as average returns and volatility, as well as computing the correlation between financial performance and the ESG score.
 
@@ -10,3 +22,4 @@ Expected challenges include matching ESG data with financial data, as company na
 Results of this analysis will be shown through a dashboard that compares financial performance of "green" companies with that of regular companies. If time permits, I would like to make this dashboard interactive, so that one can explore the data by selecting specific companies, time periods, or performance indicators.
 
 To conclude, the objective of this project is to provide a perspective on how sustainability relates to financial performance, using data from ESG scores and Yahoo Finance. It will test whether responsible businesses practices can also deliver competitive returns. It will also be a great opportunity for me to learn more about python and improve my analytical skills.
+
