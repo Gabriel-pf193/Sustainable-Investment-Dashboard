@@ -13,20 +13,10 @@ I will chose a sample of 50 countries for the analysis. Selected countries will 
 
 Once the dataset is prepared, (that is, once the data is cleaned, aligned by country and year) i will use python and its analytical tools to calculate descriptive statistics, correlations, and other summary measures. This cleaned and structured dataset will then be used as the basis for a multiple linear regression analysis. This model will estimate how variations in environmental, social, and governance indicators relate to changes in GDP growth across countries. The purpose of this regression is to quantify the direction and the strenght of the relation between sustainability indicators and economic indicators. It will also allow us to see which specific indicator of sustainability will have the most significant impact on economic performance.
 
+Along with the regression, I will use a simple machine learning model to test how well sustainability indicators can predict economic performance. The model will use the same variables as with the regression and will be evaluated using standard accuracy measures such as the R squared. This step will allow us to compare the results of a predictive approach with those of the statistical analysis.
 
+Expected challenges include differences in data coverage, since countries may not all report every indicator for each year. I will address this by keeping only countries with enough available data. Another potential difficulty is regional bias, since some regions may have better data availability than other. As I said previously, i will make sure to include countries from every region, as long as the data available is satisfying. Finally, we can think of uneven time coverage a potential issue, since certain sustainability indicators begin later than others, which may reduce the number of comparable years.
 
+If time permits, i would like to make a dashboard that would bring a visual summary of the results, allowing us to view the relationship between sustainability and economic performance in a more easy and pleasent way.
 
-
-
-
-
-
-
-
-
-
-Expected challenges include matching ESG data with financial data, as company names and tickers may differ across sources. I will deal with this issue by focusing on a smaller sample of well-known companies and manually verify that the data matches. Missing or incomplete data may also be a difficulty, which I will handle by filtering the data so that there are no more missing entries. Finally, there can also be differences in time periods between ESG and Yahoo Finance data. Once again, I will treat this issue by filtering the data to keep only the values that match in the time frame.
-
-Results of this analysis will be shown through a dashboard that compares financial performance of "green" companies with that of regular companies. If time permits, I would like to make this dashboard interactive, so that one can explore the data by selecting specific companies, time periods, or performance indicators.
-
-To conclude, the objective of this project is to provide a perspective on how sustainability relates to financial performance, using data from ESG scores and Yahoo Finance. It will test whether responsible businesses practices can also deliver competitive returns. It will also be a great opportunity for me to learn more about python and improve my analytical skills.
+To conclude, the objective of this project is to provide a perspective on how sustainability relates to economic performance, using data from the World Bank. It will test whether more sustainable countries countries do globaly better compared to other. It will also be a great opportunity for me to learn more about python and improve my analytical skills.
